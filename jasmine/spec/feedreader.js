@@ -110,21 +110,21 @@ $(function() {
        });
 
        it('updates content once loadFeed() has completed', function(done) {
+
             for(let i = 0; i < allFeeds.length - 1; i++) {
               let oldEntries = [], newEntries = [];
-              let headings = $('h2');
 
-              headings.each(function(index, h) {
+              $('.feed .entry h2').each(function(index, h) {
                 oldEntries.push(h.innerHTML);
               });
 
               loadFeed(i+1, done);
 
-              headings.each(function(index, h) {
+              $('.feed .entry h2').each(function(index, h) {
                 newEntries.push(h.innerHTML);
               });
+
               expect(oldEntries == newEntries).toBe(false);
-              //expect(oldEntries.length).toBeTruthy();
             }
        });
     });
