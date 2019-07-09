@@ -17,8 +17,8 @@ In this project we are given a web-based application that reads RSS feeds using 
     * each feed has a URL defined and is not empty
     * each feed has a name defined and is not empty
 2. Menu
-    * it is hidden by default
-    * is toggles visibility when clicked
+    * is hidden by default
+    * toggles visibility when clicked
 3. Initial Entries
     * contains at least one entry once feed has been loaded
 4. New Feed Selection
