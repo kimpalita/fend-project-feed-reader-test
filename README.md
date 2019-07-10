@@ -26,4 +26,8 @@ In this project we are given a web-based application that reads RSS feeds using 
 
 ## Dependencies
 
-[Jasmine Standalone testing framework version 3.4.0](https://github.com/jasmine/jasmine#installation)
+* [Jasmine Standalone testing framework version 3.4.0](https://github.com/jasmine/jasmine#installation)
+* HandlebarsJs version 4.0.12
+* JQuery API version 3.3.1
+* Google JSAPI
+* Google Font (Roboto)
